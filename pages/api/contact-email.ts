@@ -19,7 +19,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   try {
-    const { name, email, subject, message } = req.body;
+    const { name, email, phone, message } = req.body;
 
     // Validate required fields
     if (!name || !email || !message) {
@@ -30,11 +30,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const mailOptions = {
       from: process.env.EMAIL_USER,
       to: process.env.COMPANY_EMAIL,
-      subject: `Contact Form: ${subject || 'New Message'}`,
+      subject: 'New Contact Form Message',
       text: `
 Name: ${name}
 Email: ${email}
-Subject: ${subject || 'Not specified'}
+Phone: ${phone || 'Not provided'}
 
 Message:
 ${message}
@@ -43,7 +43,7 @@ ${message}
 <h2>New Contact Form Submission</h2>
 <p><strong>Name:</strong> ${name}</p>
 <p><strong>Email:</strong> ${email}</p>
-<p><strong>Subject:</strong> ${subject || 'Not specified'}</p>
+<p><strong>Phone:</strong> ${phone}</p>
 <h3>Message:</h3>
 <p>${message.replace(/\n/g, '<br>')}</p>
       `,
