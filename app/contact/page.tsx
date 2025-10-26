@@ -42,7 +42,7 @@ export default function ContactPage() {
     setSubmitStatus('idle')
     
     try {
-      const response = await fetch('/api/contact-email', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
