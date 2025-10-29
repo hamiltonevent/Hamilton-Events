@@ -27,7 +27,7 @@ export default function AdSenseAd({
   
   useEffect(() => {
     // Only initialize AdSense if client ID is properly configured
-    if (!clientId || clientId.includes('your-adsense-client-id-here')) {
+    if (!clientId || clientId.includes('your-adsense-client-id-here') || clientId.includes('ca-pub-XXXXXXXXXXXXXXXX')) {
       return;
     }
     
@@ -36,7 +36,21 @@ export default function AdSenseAd({
       if (typeof window !== 'undefined' && window.adsbygoogle) {
         // Add a small delay to ensure DOM is ready
         const timer = setTimeout(() => {
-          (window.adsbygoogle = window.adsbygoogle || []).push({});
+          try {
+            (window.adsbygoogle = window.adsbygoogle || []).push({});
+            console.log('AdSense ad initialized for slot:', adSlot);
+          } catch (error) {
+            console.error('AdSense push error:', error);
+            // Report error to our Netlify function
+            fetch('/api/adsense', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                action: 'report_error',
+                data: { error: error instanceof Error ? error.message : String(error), adSlot }
+              })
+            }).catch(console.error);
+          }
         }, 100);
         
         return () => clearTimeout(timer);
@@ -47,7 +61,7 @@ export default function AdSenseAd({
   }, [clientId, adSlot]); // Add adSlot as dependency to reinitialize when slot changes
 
   // Don't render ad if client ID is not properly configured
-  if (!clientId || clientId.includes('your-adsense-client-id-here')) {
+  if (!clientId || clientId.includes('your-adsense-client-id-here') || clientId.includes('ca-pub-XXXXXXXXXXXXXXXX')) {
     return (
       <div className={`adsense-placeholder ${className}`} style={style}>
         <div className="bg-gray-100 dark:bg-gray-800 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-4 text-center text-gray-500 dark:text-gray-400">

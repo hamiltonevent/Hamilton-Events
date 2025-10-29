@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
-import { generatePageMetadata } from "./core/metadata"
+import { generatePageMetadata } from "./metadata"
 import type { Language } from "@/components/language-context"
-import HomePage from './home/HomePage'
+import HomePage from "../home/HomePage"
 
 export const dynamic = 'force-static'
 

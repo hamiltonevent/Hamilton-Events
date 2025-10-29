@@ -288,17 +288,53 @@ export const termsOfServiceTranslations = {
     acceptance: "پذیرش شرایط",
     acceptanceText: "با دسترسی یا استفاده از خدمات ما، شما موافقت می‌کنید که توسط این شرایط ملزم باشید.",
     services: "خدمات ما",
-    servicesList: "ما خدمات برنامه‌ریزی رویداد شامل کنفرانس‌ها، جشن‌ها، جلسات شرکتی و رویدادهای سفارشی ارائه می‌دهیم.",
+    servicesText: "Hamilton Events خدمات حرفه‌ای برنامه‌ریزی و مدیریت رویداد ارائه می‌دهد، از جمله:",
+    servicesList: [
+      "برنامه‌ریزی و مدیریت رویدادهای شرکتی",
+      "برنامه‌ریزی و هماهنگی عروسی",
+      "سازماندهی کنفرانس و اجلاس",
+      "برنامه‌ریزی شام گالا و مراسم جوایز",
+      "تسهیل جلسات و کارگاه‌ها",
+      "راه‌حل‌های رویداد سفارشی"
+    ],
     userResponsibilities: "مسئولیت‌های کاربر",
-    userResponsibilitiesText: "شما موافقت می‌کنید که از خدمات ما به صورت قانونی و مطابق با این شرایط استفاده کنید.",
+    userResponsibilitiesText: "هنگام استفاده از خدمات ما، شما موافقت می‌کنید که:",
+    userResponsibilitiesList: [
+      "اطلاعات دقیق و کامل ارائه دهید",
+      "به وضوح در مورد نیازهای رویداد خود ارتباط برقرار کنید",
+      "پرداخت‌ها را طبق شرایط توافق شده انجام دهید",
+      "به کارکنان و فروشندگان ما احترام بگذارید",
+      "قوانین و مقررات مکان را رعایت کنید",
+      "در هیچ فعالیت غیرقانونی یا مضر شرکت نکنید"
+    ],
     bookingPayment: "رزرو و پرداخت",
-    bookingPaymentText: "تمام رزروها نیاز به تأیید دارند. شرایط پرداخت در زمان رزرو مشخص خواهد شد.",
+    bookingPaymentText: "شرایط رزرو و پرداخت ما شامل:",
+    bookingPaymentList: [
+      "برای تضمین رزرو شما، پیش‌پرداخت لازم است",
+      "برنامه‌های پرداخت به صورت کتبی توافق خواهد شد",
+      "سیاست‌های لغو همانطور که در قرارداد شما ذکر شده اعمال می‌شود",
+      "هزینه‌های اضافی ممکن است برای تغییرات یا موارد اضافی اعمال شود",
+      "تمام پرداخت‌ها به طور ایمن از طریق ارائه‌دهندگان مورد اعتماد پردازش می‌شود"
+    ],
     cancellation: "سیاست لغو",
-    cancellationText: "سیاست‌های لغو بسته به نوع رویداد و زمان‌بندی متفاوت است. جزئیات در قرارداد خدمات ارائه خواهد شد.",
+    cancellationText: "شرایط لغو بسته به نوع و مقیاس رویداد شما متفاوت است. سیاست‌های لغو خاص در توافق‌نامه خدمات شما ذکر خواهد شد. به طور کلی:",
+    cancellationList: [
+      "لغوهای انجام شده 30+ روز از قبل ممکن است بازپرداخت جزئی دریافت کنند",
+      "لغوهای انجام شده 14-29 روز از قبل ممکن است هزینه‌های اضافی داشته باشند",
+      "لغوهای انجام شده کمتر از 14 روز از قبل ممکن است پیش‌پرداخت‌ها را از دست بدهند",
+      "رویدادهای قهری به صورت موردی بررسی خواهند شد"
+    ],
     intellectualProperty: "مالکیت معنوی",
     intellectualPropertyText: "تمام محتوا، نشان‌های تجاری و مالکیت معنوی در وب‌سایت ما متعلق به Hamilton Events است.",
     liability: "محدودیت مسئولیت",
-    liabilityText: "مسئولیت ما محدود به حداکثر مبلغ پرداخت شده برای خدمات است.",
+    liabilityText: "Hamilton Events تلاش می‌کند خدمات عالی ارائه دهد، اما نمی‌توانیم تضمین کنیم که هر جنبه از رویداد شما کامل باشد. مسئولیت ما محدود به مبلغ پرداخت شده برای خدمات ماست. ما مسئول نیستیم برای:",
+    liabilityList: [
+      "اعمال یا تصمیمات فروشندگان شخص ثالث",
+      "شرایط آب و هوایی یا سایر عوامل خارج از کنترل ما",
+      "تغییرات در دسترسی یا سیاست‌های مکان",
+      "مسائل فنی یا خرابی تجهیزات",
+      "اقدامات یا رفتار مهمانان یا شرکت‌کنندگان"
+    ],
     privacy: "حریم خصوصی",
     privacyText: "استفاده از اطلاعات شما توسط سیاست حریم خصوصی ما کنترل می‌شود.",
     modifications: "تغییرات",
@@ -321,17 +357,53 @@ export const termsOfServiceTranslations = {
     acceptance: "Acceptation des conditions",
     acceptanceText: "En accédant ou en utilisant nos services, vous acceptez d'être lié par ces Conditions.",
     services: "Nos services",
-    servicesList: "Nous fournissons des services de planification d'événements incluant des conférences, des galas, des réunions d'entreprise et des événements personnalisés.",
+    servicesText: "Hamilton Events fournit des services professionnels de planification et de gestion d'événements, notamment :",
+    servicesList: [
+      "Planification et gestion d'événements d'entreprise",
+      "Planification et coordination de mariages",
+      "Organisation de conférences et de sommets",
+      "Planification de dîners de gala et de cérémonies de remise de prix",
+      "Animation de réunions et d'ateliers",
+      "Solutions d'événements personnalisés"
+    ],
     userResponsibilities: "Responsabilités de l'utilisateur",
-    userResponsibilitiesText: "Vous acceptez d'utiliser nos services légalement et conformément à ces Conditions.",
+    userResponsibilitiesText: "En utilisant nos services, vous acceptez de :",
+    userResponsibilitiesList: [
+      "Fournir des informations exactes et complètes",
+      "Communiquer clairement vos exigences d'événement",
+      "Effectuer les paiements selon les conditions convenues",
+      "Respecter notre personnel et nos fournisseurs",
+      "Respecter les règles et réglementations du lieu",
+      "Ne pas vous engager dans des activités illégales ou nuisibles"
+    ],
     bookingPayment: "Réservation et paiement",
-    bookingPaymentText: "Toutes les réservations nécessitent une confirmation. Les conditions de paiement seront spécifiées au moment de la réservation.",
+    bookingPaymentText: "Nos conditions de réservation et de paiement incluent :",
+    bookingPaymentList: [
+      "Un acompte est requis pour sécuriser votre réservation",
+      "Les échéanciers de paiement seront convenus par écrit",
+      "Les politiques d'annulation s'appliquent comme indiqué dans votre contrat",
+      "Des frais supplémentaires peuvent s'appliquer pour les modifications ou les extras",
+      "Tous les paiements sont traités de manière sécurisée par des fournisseurs de confiance"
+    ],
     cancellation: "Politique d'annulation",
-    cancellationText: "Les politiques d'annulation varient selon le type d'événement et le calendrier. Les détails seront fournis dans l'accord de service.",
+    cancellationText: "Les conditions d'annulation varient selon le type et l'ampleur de votre événement. Les politiques d'annulation spécifiques seront décrites dans votre accord de service. En général :",
+    cancellationList: [
+      "Les annulations effectuées 30+ jours à l'avance peuvent recevoir des remboursements partiels",
+      "Les annulations effectuées 14-29 jours à l'avance peuvent encourir des frais supplémentaires",
+      "Les annulations effectuées moins de 14 jours à l'avance peuvent perdre les acomptes",
+      "Les événements de force majeure seront traités au cas par cas"
+    ],
     intellectualProperty: "Propriété intellectuelle",
     intellectualPropertyText: "Tout le contenu, les marques de commerce et la propriété intellectuelle de notre site web appartiennent à Hamilton Events.",
     liability: "Limitation de responsabilité",
-    liabilityText: "Notre responsabilité est limitée au montant maximum payé pour les services.",
+    liabilityText: "Hamilton Events s'efforce de fournir un excellent service, mais nous ne pouvons pas garantir que chaque aspect de votre événement sera parfait. Notre responsabilité est limitée au montant payé pour nos services. Nous ne sommes pas responsables de :",
+    liabilityList: [
+      "Actions ou décisions de fournisseurs tiers",
+      "Conditions météorologiques ou autres facteurs hors de notre contrôle",
+      "Changements dans l'accessibilité ou les politiques du lieu",
+      "Problèmes techniques ou pannes d'équipement",
+      "Actions ou comportement des invités ou participants"
+    ],
     privacy: "Confidentialité",
     privacyText: "L'utilisation de vos informations est régie par notre politique de confidentialité.",
     modifications: "Modifications",
@@ -354,16 +426,51 @@ export const termsOfServiceTranslations = {
     acceptance: "የውሎች ተቀባይነት",
     acceptanceText: "አገልግሎቶቻችንን በመድረስ ወይም በመጠቀም፣ በእነዚህ ውሎች እንደሚታሰሩ ተስማምተዋል።",
     services: "አገልግሎቶቻችን",
-    servicesList: "ኮንፈረንሶችን፣ ጋላዎችን፣ የኮርፖሬት ስብሰባዎችን እና ብጁ ዝግጅቶችን ጨምሮ የዝግጅት እቅድ አገልግሎቶችን እንሰጣለን።",
+    servicesList: [
+      "ኮንፈረንሶች እና ሴሚናሮች",
+      "ጋላዎች እና የሽልማት ሥነ ሥርዓቶች",
+      "የኮርፖሬት ስብሰባዎች እና ዝግጅቶች",
+      "ብጁ ዝግጅቶች እና ክብረ በዓላት",
+      "የዝግጅት እቅድ እና አስተባባሪነት አገልግሎቶች"
+    ],
+    servicesText: "ኮንፈረንሶችን፣ ጋላዎችን፣ የኮርፖሬት ስብሰባዎችን እና ብጁ ዝግጅቶችን ጨምሮ የዝግጅት እቅድ አገልግሎቶችን እንሰጣለን።",
     userResponsibilities: "የተጠቃሚ ኃላፊነቶች",
+    userResponsibilitiesList: [
+      "አገልግሎቶችን በሕጋዊ መንገድ መጠቀም",
+      "በእነዚህ ውሎች መሠረት መሥራት",
+      "ትክክለኛ እና ወቅታዊ መረጃ መስጠት",
+      "የሌሎችን መብቶች ማክበር",
+      "ተገቢ ባህሪ መጠበቅ"
+    ],
     userResponsibilitiesText: "አገልግሎቶቻችንን በሕጋዊ መንገድ እና በእነዚህ ውሎች መሠረት ለመጠቀም ተስማምተዋል።",
     bookingPayment: "ቦታ ማስያዝ እና ክፍያ",
+    bookingPaymentList: [
+      "ሁሉም ቦታ ማስያዝ ማረጋገጫ ይፈልጋል",
+      "የክፍያ ውሎች በቦታ ማስያዝ ጊዜ ይገለጻሉ",
+      "የቅድመ ክፍያ ሊፈለግ ይችላል",
+      "የክፍያ ዘዴዎች በአገልግሎት ስምምነት ውስጥ ይገለጻሉ",
+      "ዘግይተው የሚከፈሉ ክፍያዎች ተጨማሪ ክፍያዎች ሊኖራቸው ይችላል"
+    ],
     bookingPaymentText: "ሁሉም ቦታ ማስያዝ ማረጋገጫ ይፈልጋል። የክፍያ ውሎች በቦታ ማስያዝ ጊዜ ይገለጻሉ።",
     cancellation: "የመሰረዝ ፖሊሲ",
+    cancellationList: [
+      "የመሰረዝ ፖሊሲዎች እንደ ዝግጅት አይነት ይለያያሉ",
+      "የጊዜ ሰሌዳ ለመሰረዝ ፖሊሲ ወሳኝ ነው",
+      "ዝርዝሮች በአገልግሎት ስምምነት ውስጥ ይሰጣሉ",
+      "የመሰረዝ ክፍያዎች ሊተገበሩ ይችላሉ",
+      "የመሰረዝ ጥያቄዎች በጽሑፍ መቅረብ አለባቸው"
+    ],
     cancellationText: "የመሰረዝ ፖሊሲዎች እንደ ዝግጅት አይነት እና የጊዜ ሰሌዳ ይለያያሉ። ዝርዝሮች በአገልግሎት ስምምነት ውስጥ ይሰጣሉ።",
     intellectualProperty: "የአዕምሮ ንብረት",
     intellectualPropertyText: "በድረ-ገጻችን ላይ ያሉ ሁሉም ይዘቶች፣ የንግድ ምልክቶች እና የአዕምሮ ንብረቶች የHamilton Events ናቸው።",
     liability: "የኃላፊነት ገደብ",
+    liabilityList: [
+      "የእኛ ኃላፊነት ለአገልግሎቶች የተከፈለው ከፍተኛ መጠን ድረስ ይገደባል",
+      "ቀጥተኛ ያልሆኑ ወይም ተዛማጅ ጉዳቶች አይካተቱም",
+      "የኃላፊነት ገደቦች በሕግ የተፈቀዱ ናቸው",
+      "የተወሰኑ ዓይነት ጉዳቶች ሊገለሉ ይችላሉ",
+      "የኃላፊነት ገደቦች በአገልግሎት ስምምነት ውስጥ ይገለጻሉ"
+    ],
     liabilityText: "የእኛ ኃላፊነት ለአገልግሎቶች የተከፈለው ከፍተኛ መጠን ድረስ ይገደባል።",
     privacy: "ግላዊነት",
     privacyText: "የእርስዎ መረጃ አጠቃቀም በእኛ የግላዊነት ፖሊሲ ይተዳደራል።",
@@ -387,17 +494,52 @@ export const termsOfServiceTranslations = {
     acceptance: "Accettazione dei termini",
     acceptanceText: "Accedendo o utilizzando i nostri servizi, accetti di essere vincolato da questi Termini.",
     services: "I nostri servizi",
-    servicesList: "Forniamo servizi di pianificazione eventi inclusi conferenze, gala, riunioni aziendali ed eventi personalizzati.",
+    servicesList: [
+      "Pianificazione e gestione di eventi aziendali",
+      "Pianificazione e coordinamento matrimoni",
+      "Organizzazione conferenze e summit",
+      "Pianificazione cene di gala e cerimonie di premiazione",
+      "Facilitazione riunioni e workshop",
+      "Soluzioni eventi personalizzati"
+    ],
     userResponsibilities: "Responsabilità dell'utente",
     userResponsibilitiesText: "Accetti di utilizzare i nostri servizi legalmente e in conformità con questi Termini.",
+    userResponsibilitiesList: [
+      "Fornire informazioni accurate e complete",
+      "Comunicare chiaramente sui requisiti del tuo evento",
+      "Effettuare pagamenti secondo i termini concordati",
+      "Rispettare il nostro staff e i fornitori",
+      "Rispettare le regole e i regolamenti della sede",
+      "Non impegnarsi in attività illegali o dannose"
+    ],
     bookingPayment: "Prenotazione e pagamento",
-    bookingPaymentText: "Tutte le prenotazioni richiedono conferma. I termini di pagamento saranno specificati al momento della prenotazione.",
+    bookingPaymentText: "I nostri termini di prenotazione e pagamento includono:",
+    bookingPaymentList: [
+      "È richiesto un deposito per garantire la prenotazione",
+      "I programmi di pagamento saranno concordati per iscritto",
+      "Si applicano le politiche di cancellazione come delineato nel contratto",
+      "Potrebbero applicarsi costi aggiuntivi per modifiche o extra",
+      "Tutti i pagamenti sono elaborati in modo sicuro tramite fornitori fidati"
+    ],
     cancellation: "Politica di cancellazione",
-    cancellationText: "Le politiche di cancellazione variano in base al tipo di evento e alla tempistica. I dettagli saranno forniti nell'accordo di servizio.",
+    cancellationText: "I termini di cancellazione variano a seconda del tipo e della scala del tuo evento. Le politiche di cancellazione specifiche saranno delineate nel tuo accordo di servizio. Generalmente:",
+    cancellationList: [
+      "Le cancellazioni effettuate con 30+ giorni di anticipo possono ricevere rimborsi parziali",
+      "Le cancellazioni effettuate con 14-29 giorni di anticipo possono incorrere in costi aggiuntivi",
+      "Le cancellazioni effettuate con meno di 14 giorni di anticipo possono perdere i depositi",
+      "Gli eventi di forza maggiore saranno gestiti caso per caso"
+    ],
     intellectualProperty: "Proprietà intellettuale",
     intellectualPropertyText: "Tutti i contenuti, marchi e proprietà intellettuale del nostro sito web appartengono a Hamilton Events.",
     liability: "Limitazione di responsabilità",
-    liabilityText: "La nostra responsabilità è limitata all'importo massimo pagato per i servizi.",
+    liabilityText: "La nostra responsabilità è limitata all'importo massimo pagato per i servizi. Non siamo responsabili per:",
+    liabilityList: [
+      "Atti di Dio o eventi di forza maggiore",
+      "Fallimenti dei fornitori al di fuori del nostro controllo",
+      "Comportamento o azioni degli ospiti",
+      "Problemi relativi alla sede al di fuori del nostro controllo",
+      "Fallimenti di fornitori di servizi di terze parti"
+    ],
     privacy: "Privacy",
     privacyText: "L'uso delle tue informazioni è regolato dalla nostra politica sulla privacy.",
     modifications: "Modifiche",
@@ -420,16 +562,51 @@ export const termsOfServiceTranslations = {
     acceptance: "Acceptatio Terminorum",
     acceptanceText: "Accedendo vel utendo officiis nostris, consentis his Terminis ligari.",
     services: "Officia Nostra",
-    servicesList: "Officia dispositionis eventuum praebemos inclusa conferentias, galas, conventus corporatos et eventos personales.",
+    servicesList: [
+      "Conferentiae et seminaria",
+      "Galae et ceremoniae praemiorum",
+      "Conventus corporati et eventus",
+      "Eventus personales et celebrationes",
+      "Officia dispositionis et coordinationis eventuum"
+    ],
+    servicesText: "Officia dispositionis eventuum praebemos inclusa conferentias, galas, conventus corporatos et eventos personales.",
     userResponsibilities: "Responsabilitates Usatoris",
+    userResponsibilitiesList: [
+      "Officia legitime uti",
+      "Secundum hos Terminos agere",
+      "Informationes accuratas et recentes praebere",
+      "Iura aliorum respectare",
+      "Comportamentum appropriatum servare"
+    ],
     userResponsibilitiesText: "Consentis officia nostra legitime et secundum hos Terminos uti.",
     bookingPayment: "Reservatio et Solutio",
+    bookingPaymentList: [
+      "Omnes reservationes confirmationem requirunt",
+      "Termini solutionis tempore reservationis specificabuntur",
+      "Solutio anticipata requiri potest",
+      "Modi solutionis in foedere officii specificabuntur",
+      "Solutiones tardae poenas additas habere possunt"
+    ],
     bookingPaymentText: "Omnes reservationes confirmationem requirunt. Termini solutionis tempore reservationis specificabuntur.",
     cancellation: "Politica Cancellationis",
+    cancellationList: [
+      "Politicae cancellationis variant secundum genus eventi",
+      "Tempus cruciale est pro politica cancellationis",
+      "Particularia in foedere officii praebebuntur",
+      "Poena cancellationis applicari potest",
+      "Petitiones cancellationis in scripto fieri debent"
+    ],
     cancellationText: "Politicae cancellationis variant secundum genus eventi et tempus. Particularia in foedere officii praebebuntur.",
     intellectualProperty: "Proprietas Intellectualis",
     intellectualPropertyText: "Omnis contentus, signa mercatoria et proprietas intellectualis situs nostri ad Hamilton Events pertinent.",
     liability: "Limitatio Responsabilitatis",
+    liabilityList: [
+      "Responsabilitas nostra ad summam maximam pro officiis solutam limitatur",
+      "Damna indirecta vel consequentia non includuntur",
+      "Limitationes responsabilitatis lege permissae sunt",
+      "Certi typi damnorum excludi possunt",
+      "Limitationes responsabilitatis in foedere officii specificabuntur"
+    ],
     liabilityText: "Responsabilitas nostra ad summam maximam pro officiis solutam limitatur.",
     privacy: "Privatum",
     privacyText: "Usus informationum tuarum a politica privata nostra regitur.",
@@ -453,16 +630,51 @@ export const termsOfServiceTranslations = {
     acceptance: "Принятие условий",
     acceptanceText: "Получая доступ к нашим услугам или используя их, вы соглашаетесь соблюдать эти Условия.",
     services: "Наши услуги",
-    servicesList: "Мы предоставляем услуги планирования мероприятий, включая конференции, гала-вечера, корпоративные встречи и индивидуальные мероприятия.",
+    servicesList: [
+      "Конференции и семинары",
+      "Гала-вечера и церемонии награждения",
+      "Корпоративные встречи и мероприятия",
+      "Индивидуальные мероприятия и торжества",
+      "Услуги планирования и координации мероприятий"
+    ],
+    servicesText: "Мы предоставляем услуги планирования мероприятий, включая конференции, гала-вечера, корпоративные встречи и индивидуальные мероприятия.",
     userResponsibilities: "Обязанности пользователя",
+    userResponsibilitiesList: [
+      "Использовать услуги законно",
+      "Действовать в соответствии с этими Условиями",
+      "Предоставлять точную и актуальную информацию",
+      "Уважать права других",
+      "Поддерживать подобающее поведение"
+    ],
     userResponsibilitiesText: "Вы соглашаетесь использовать наши услуги законно и в соответствии с этими Условиями.",
     bookingPayment: "Бронирование и оплата",
+    bookingPaymentList: [
+      "Все бронирования требуют подтверждения",
+      "Условия оплаты будут указаны во время бронирования",
+      "Может потребоваться предварительная оплата",
+      "Способы оплаты будут указаны в соглашении об услугах",
+      "Просроченные платежи могут повлечь дополнительные сборы"
+    ],
     bookingPaymentText: "Все бронирования требуют подтверждения. Условия оплаты будут указаны во время бронирования.",
     cancellation: "Политика отмены",
+    cancellationList: [
+      "Политики отмены различаются в зависимости от типа мероприятия",
+      "Время имеет решающее значение для политики отмены",
+      "Подробности будут предоставлены в соглашении об услугах",
+      "Могут применяться штрафы за отмену",
+      "Запросы на отмену должны подаваться в письменном виде"
+    ],
     cancellationText: "Политики отмены различаются в зависимости от типа мероприятия и сроков. Подробности будут предоставлены в соглашении об услугах.",
     intellectualProperty: "Интеллектуальная собственность",
     intellectualPropertyText: "Весь контент, торговые марки и интеллектуальная собственность нашего веб-сайта принадлежат Hamilton Events.",
     liability: "Ограничение ответственности",
+    liabilityList: [
+      "Наша ответственность ограничена максимальной суммой, уплаченной за услуги",
+      "Косвенные или последующие ущербы не включены",
+      "Ограничения ответственности разрешены законом",
+      "Определенные типы ущерба могут быть исключены",
+      "Ограничения ответственности будут указаны в соглашении об услугах"
+    ],
     liabilityText: "Наша ответственность ограничена максимальной суммой, уплаченной за услуги.",
     privacy: "Конфиденциальность",
     privacyText: "Использование вашей информации регулируется нашей политикой конфиденциальности.",
@@ -486,16 +698,51 @@ export const termsOfServiceTranslations = {
     acceptance: "Acceptans av villkor",
     acceptanceText: "Genom att komma åt eller använda våra tjänster samtycker du till att vara bunden av dessa Villkor.",
     services: "Våra tjänster",
-    servicesList: "Vi tillhandahåller eventplaneringstjänster inklusive konferenser, galaer, företagsmöten och anpassade evenemang.",
+    servicesList: [
+      "Konferenser och seminarier",
+      "Galaer och prisutdelningar",
+      "Företagsmöten och evenemang",
+      "Anpassade evenemang och firanden",
+      "Eventplanering och koordinationstjänster"
+    ],
+    servicesText: "Vi tillhandahåller eventplaneringstjänster inklusive konferenser, galaer, företagsmöten och anpassade evenemang.",
     userResponsibilities: "Användaransvar",
+    userResponsibilitiesList: [
+      "Använda tjänsterna lagligt",
+      "Handla i enlighet med dessa Villkor",
+      "Tillhandahålla korrekt och aktuell information",
+      "Respektera andras rättigheter",
+      "Upprätthålla lämpligt beteende"
+    ],
     userResponsibilitiesText: "Du samtycker till att använda våra tjänster lagligt och i enlighet med dessa Villkor.",
     bookingPayment: "Bokning och betalning",
+    bookingPaymentList: [
+      "Alla bokningar kräver bekräftelse",
+      "Betalningsvillkor kommer att specificeras vid bokningstillfället",
+      "Förskottsbetalning kan krävas",
+      "Betalningsmetoder kommer att specificeras i serviceavtalet",
+      "Försenade betalningar kan medföra ytterligare avgifter"
+    ],
     bookingPaymentText: "Alla bokningar kräver bekräftelse. Betalningsvillkor kommer att specificeras vid bokningstillfället.",
     cancellation: "Avbokningspolicy",
+    cancellationList: [
+      "Avbokningspolicyer varierar beroende på eventtyp",
+      "Tidpunkt är avgörande för avbokningspolicyer",
+      "Detaljer kommer att tillhandahållas i serviceavtalet",
+      "Avbokningsavgifter kan tillkomma",
+      "Avbokningsförfrågningar måste göras skriftligt"
+    ],
     cancellationText: "Avbokningspolicyer varierar beroende på eventtyp och tidpunkt. Detaljer kommer att tillhandahållas i serviceavtalet.",
     intellectualProperty: "Immateriell egendom",
     intellectualPropertyText: "Allt innehåll, varumärken och immateriell egendom på vår webbplats tillhör Hamilton Events.",
     liability: "Ansvarsbegränsning",
+    liabilityList: [
+      "Vårt ansvar är begränsat till det maximala beloppet som betalats för tjänsterna",
+      "Indirekta eller följdskador ingår inte",
+      "Ansvarsbegränsningar är tillåtna enligt lag",
+      "Vissa typer av skador kan uteslutas",
+      "Ansvarsbegränsningar kommer att specificeras i serviceavtalet"
+    ],
     liabilityText: "Vårt ansvar är begränsat till det maximala beloppet som betalats för tjänsterna.",
     privacy: "Integritet",
     privacyText: "Användningen av din information styrs av vår integritetspolicy.",

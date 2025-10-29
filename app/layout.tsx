@@ -7,7 +7,7 @@ import { Footer } from "@/components/footer"
 import { LanguageProvider } from "@/components/language-context"
 import { ThemeProvider } from "@/components/theme-provider"
 import { AiAssistant } from "@/components/ai-assistant"
-import { generatePageMetadata } from "./metadata"
+import { generatePageMetadata } from "./core/metadata"
 import Script from "next/script"
 
 const inter = Inter({
@@ -75,11 +75,13 @@ export default function RootLayout({
         </Script>
         
         {/* Google AdSense */}
-        <Script
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
-          strategy="afterInteractive"
-          crossOrigin="anonymous"
-        />
+        {adsenseClient && !adsenseClient.includes('ca-pub-XXXXXXXXXXXXXXXX') && (
+          <Script
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
+            strategy="afterInteractive"
+            crossOrigin="anonymous"
+          />
+        )}
         
         {/* Structured Data */}
         <Script id="structured-data" type="application/ld+json" strategy="afterInteractive">
