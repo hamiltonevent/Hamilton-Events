@@ -51,7 +51,7 @@ export const translations: Record<Language, Record<string, string>> = {
     
     // How We Work
     howWeWorkTitle: "How We Work",
-    howWeWorkSubtitle: "Our proven 4 step process ensures successful investment outcomes",
+    howWeWorkSubtitle: "Our proven 4 step process ensures successful event outcomes",
     step1Title: "Discovery & Vision",
     step1Desc: "We take the time to listen to your ideas and understand your goals, shaping every detail to create an event that's seamless, memorable, and perfectly aligned with your vision.",
     step2Title: "Planning & Strategy",
@@ -179,7 +179,7 @@ export const translations: Record<Language, Record<string, string>> = {
     
     // How We Work
     howWeWorkTitle: "كيف نعمل",
-    howWeWorkSubtitle: "عمليتنا المثبتة المكونة من 4 خطوات تضمن نتائج استثمارية ناجحة",
+    howWeWorkSubtitle: "عمليتنا المثبتة المكونة من 4 خطوات تضمن نتائج الأحداث ناجحة",
     step1Title: "الاكتشاف والرؤية",
     step1Desc: "نأخذ الوقت للاستماع إلى أفكارك وفهم أهدافك، وتشكيل كل التفاصيل لإنشاء حدث سلس ولا يُنسى ومتوافق تمامًا مع رؤيتك.",
     step2Title: "التخطيط والاستراتيجية",
