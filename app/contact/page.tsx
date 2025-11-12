@@ -145,7 +145,7 @@ export default function ContactPage() {
                         value={formData.message}
                         onChange={handleInputChange}
                         className="mt-1 min-h-[120px]"
-                        placeholder="Tell us about your investment interests and goals..."
+                        placeholder="Tell us about your event interests and goals..."
                       />
                     </div>
 
