@@ -12,7 +12,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Hamilton Events</h3>
-            <p className="text-gray-300 text-sm sm:text-base">From Concept to Celebration.We bring creativity, precision, and impact to every event.</p>
+            <p className="text-gray-300 text-sm sm:text-base">From Vision to Execution, We craft events that speak Elegance, Precision, and Purpose delivering experiences that leave a lasting impression on every guest.</p>
           </div>
 
           <div>

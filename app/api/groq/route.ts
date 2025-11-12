@@ -2,14 +2,14 @@ import { NextRequest, NextResponse } from 'next/server';
 import { Groq } from 'groq-sdk';
 
 const groq = new Groq({
-  apiKey: process.env.NEXT_PUBLIC_GROQ_API_KEY,
+  apiKey: process.env.GROQ_API_KEY || process.env.NEXT_PUBLIC_GROQ_API_KEY,
 });
 
 export async function POST(request: NextRequest) {
   try {
     const { prompt } = await request.json();
 
-    if (!process.env.NEXT_PUBLIC_GROQ_API_KEY) {
+    if (!process.env.GROQ_API_KEY && !process.env.NEXT_PUBLIC_GROQ_API_KEY) {
       return NextResponse.json(
         { error: 'Groq API key is not configured.' },
         { status: 500 }
@@ -34,7 +34,7 @@ export async function POST(request: NextRequest) {
           content: prompt
         }
       ],
-      model: "openai/gpt-oss-20b",
+      model: "llama-3.3-70b-versatile",
       temperature: 0.7,
       max_tokens: 1024,
     });
@@ -54,7 +54,7 @@ export async function POST(request: NextRequest) {
     if (error instanceof Error) {
       if (error.message.includes('404')) {
         return NextResponse.json(
-          { error: 'Model not found. Please check if the model "openai/gpt-oss-20b" is available.' },
+          { error: 'Model not found. Please check if the model "llama3-8b-8192" is available.' },
           { status: 404 }
         );
       }

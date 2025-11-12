@@ -28,7 +28,7 @@ export const handler: Handler = async (event, context) => {
   try {
     const { prompt } = JSON.parse(event.body || '{}');
 
-    const apiKey = process.env.GROQ_API_KEY;
+    const apiKey = process.env.GROQ_API_KEY || process.env.NEXT_PUBLIC_GROQ_API_KEY;
     if (!apiKey) {
       return {
         statusCode: 500,
@@ -65,7 +65,7 @@ export const handler: Handler = async (event, context) => {
           content: prompt
         }
       ],
-      model: "llama-3.3-70b-versatile",
+      model: "llama3-8b-8192",
       temperature: 0.7,
       max_tokens: 1024,
     });
@@ -97,7 +97,7 @@ export const handler: Handler = async (event, context) => {
             'Content-Type': 'application/json',
             'Access-Control-Allow-Origin': '*',
           },
-          body: JSON.stringify({ error: 'Model not found. Please check if the model "llama-3.3-70b-versatile" is available.' }),
+          body: JSON.stringify({ error: 'Model not found. Please check if the model "llama3-8b-8192" is available.' }),
         };
       }
       if (error.message.includes('401')) {

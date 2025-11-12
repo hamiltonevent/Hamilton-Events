@@ -51,7 +51,7 @@ async function generateAIResponse(message: string, groqApiKey: string): Promise<
           content: message
         }
       ],
-      model: "llama-3.3-70b-versatile",
+      model: "llama3-8b-8192",
       temperature: 0.7,
       max_tokens: 500,
     });
@@ -117,7 +117,7 @@ export const handler: Handler = async (event, context) => {
     // Get environment variables
     const emailUser = process.env.EMAIL_USER;
     const emailPass = process.env.EMAIL_PASS;
-    const groqApiKey = process.env.GROQ_API_KEY;
+    const groqApiKey = process.env.GROQ_API_KEY || process.env.NEXT_PUBLIC_GROQ_API_KEY;
 
     if (!emailUser || !emailPass) {
       return {
@@ -131,7 +131,7 @@ export const handler: Handler = async (event, context) => {
     }
 
     // Create nodemailer transporter
-    const transporter = nodemailer.createTransporter({
+    const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
         user: emailUser,

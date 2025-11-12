@@ -51,7 +51,7 @@ export const translations: Record<Language, Record<string, string>> = {
     
     // How We Work
     howWeWorkTitle: "How We Work",
-    howWeWorkSubtitle: "Our proven 4 step process ensures successful investment outcomes",
+    howWeWorkSubtitle: "Our proven 4-step process ensures successful event outcomes",
     step1Title: "Discovery & Vision",
     step1Desc: "We take the time to listen to your ideas and understand your goals, shaping every detail to create an event that's seamless, memorable, and perfectly aligned with your vision.",
     step2Title: "Planning & Strategy",
@@ -179,7 +179,7 @@ export const translations: Record<Language, Record<string, string>> = {
     
     // How We Work
     howWeWorkTitle: "كيف نعمل",
-    howWeWorkSubtitle: "عمليتنا المثبتة المكونة من 4 خطوات تضمن نتائج استثمارية ناجحة",
+    howWeWorkSubtitle: "عمليتنا المثبتة المكونة من 4 خطوات تضمن نتائج الأحداث ناجحة",
     step1Title: "الاكتشاف والرؤية",
     step1Desc: "نأخذ الوقت للاستماع إلى أفكارك وفهم أهدافك، وتشكيل كل التفاصيل لإنشاء حدث سلس ولا يُنسى ومتوافق تمامًا مع رؤيتك.",
     step2Title: "التخطيط والاستراتيجية",
@@ -284,7 +284,7 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // How We Work
     howWeWorkTitle: "Hoe we werken",
-    howWeWorkSubtitle: "Ons bewezen 4-stappenproces zorgt voor succesvolle investeringsresultaten",
+    howWeWorkSubtitle: "Ons bewezen 4-stappenproces zorgt voor succesvolle evenementresultaten",
     step1Title: "Ontdekking & Visie",
     step1Desc: "We nemen de tijd om naar uw ideeën te luisteren en uw doelen te begrijpen, en geven elk detail vorm om een evenement te creëren dat naadloos, gedenkwaardig en perfect in lijn is met uw visie.",
     step2Title: "Planning & Strategie",
@@ -389,7 +389,7 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // How We Work
     howWeWorkTitle: "چگونه کار می کنیم",
-    howWeWorkSubtitle: "فرآیند 4 مرحله ای اثبات شده ما نتایج سرمایه گذاری موفق را تضمین می کند",
+    howWeWorkSubtitle: "فرآیند 4 مرحله ای اثبات شده ما نتایج موفقیت آمیز رویداد را تضمین می کند",
     step1Title: "کشف و چشم انداز",
     step1Desc: "ما وقت می گذاریم تا به ایده های شما گوش دهیم و اهداف شما را درک کنیم و هر جزئیات را برای ایجاد یک رویداد یکپارچه، به یاد ماندنی و کاملاً مطابق با دیدگاه شما شکل می دهیم.",
     step2Title: "برنامه ریزی و استراتژی",
@@ -494,7 +494,7 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // How We Work
     howWeWorkTitle: "Comment nous travaillons",
-    howWeWorkSubtitle: "Notre processus éprouvé en 4 étapes garantit des résultats d'investissement réussis",
+    howWeWorkSubtitle: "Notre processus éprouvé en 4 étapes garantit des résultats d'événement réussis",
     step1Title: "Découverte et vision",
     step1Desc: "Nous prenons le temps d'écouter vos idées et de comprendre vos objectifs, en façonnant chaque détail pour créer un événement fluide, mémorable et parfaitement aligné sur votre vision.",
     step2Title: "Planification et stratégie",
@@ -599,7 +599,7 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // How We Work
     howWeWorkTitle: "እንዴት እንደምንሰራ",
-    howWeWorkSubtitle: "የእኛ የተረጋገጠ ባለ 4-ደረጃ ሂደት ስኬታማ የኢንቨስትመን트 შედეგዎችን ያረጋግጣል",
+    howWeWorkSubtitle: "የእኛ የተረጋገጠ ባለ 4-ደረጃ ሂደት ስኬታማ የክስተት შედეგዎችን ያረጋግጣል",
     step1Title: "ግኝት እና ራዕይ",
     step1Desc: "ሀሳቦችዎን ለማዳመጥ እና ግቦችዎን ለመረዳት ጊዜ እንወስዳለን፣ እያንዳንዱን ዝርዝር ነገር እንከን የለሽ፣ የማይረሳ እና ከራዕይዎ ጋር ፍጹም የተጣጣመ ክስተት ለመፍጠር እንቀርጻለን።",
     step2Title: "እቅድ እና ስልት",
@@ -704,7 +704,7 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // How We Work
     howWeWorkTitle: "Come lavoriamo",
-    howWeWorkSubtitle: "Il nostro collaudato processo in 4 fasi garantisce risultati di investimento di successo",
+    howWeWorkSubtitle: "Il nostro collaudato processo in 4 fasi garantisce risultati di evento di successo",
     step1Title: "Scoperta e visione",
     step1Desc: "Ci prendiamo il tempo per ascoltare le tue idee e comprendere i tuoi obiettivi, modellando ogni dettaglio per creare un evento che sia fluido, memorabile e perfettamente in linea con la tua visione.",
     step2Title: "Pianificazione e strategia",
@@ -809,7 +809,7 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // How We Work
     howWeWorkTitle: "Quomodo operamur",
-    howWeWorkSubtitle: "Noster probatus 4-gradus processus efficit ut eventus collocationis prosperi sint",
+    howWeWorkSubtitle: "Noster probatus 4-gradus processus efficit ut eventus eventus prosperi sint",
     step1Title: "Inventio et Visio",
     step1Desc: "Tempus sumimus ad ideas tuas audiendas et proposita tua intellegenda, singula singula fingentes ad eventum creandum quod sine suturis, memorabile et perfecte cum visione tua alignatum est.",
     step2Title: "Consilium et Strategia",
@@ -914,7 +914,7 @@ networkingTitle: "Сетевые мероприятия",
 
     // How We Work
     howWeWorkTitle: "Как мы работаем",
-    howWeWorkSubtitle: "Наш проверенный 4-этапный процесс обеспечивает успешные результаты инвестиций",
+    howWeWorkSubtitle: "Наш проверенный 4-этапный процесс обеспечивает успешные результаты мероприятий",
     step1Title: "Открытие и видение",
     step1Desc: "Мы уделяем время тому, чтобы выслушать ваши идеи и понять ваши цели, формируя каждую деталь для создания безупречного, запоминающегося и полностью соответствующего вашему видению мероприятия.",
     step2Title: "Планирование и стратегия",
@@ -1019,7 +1019,7 @@ flawlessDesc: "Från planering till logistik till samordning på dagen, vi hante
 
     // How We Work
     howWeWorkTitle: "Hur vi arbetar",
-    howWeWorkSubtitle: "Vår beprövade 4-stegsprocess säkerställer framgångsrika investeringsresultat",
+    howWeWorkSubtitle: "Vår beprövade 4-stegsprocess säkerställer framgångsrika evenemangsresultat",
     step1Title: "Upptäckt och vision",
     step1Desc: "Vi tar oss tid att lyssna på dina idéer och förstå dina mål och formar varje detalj för att skapa ett evenemang som är sömlöst, minnesvärt och perfekt anpassat till din vision.",
     step2Title: "Planering och strategi",
@@ -1124,7 +1124,7 @@ flawlessDesc: "Från planering till logistik till samordning på dagen, vi hante
 
     // How We Work
     howWeWorkTitle: "我们如何工作",
-    howWeWorkSubtitle: "我们经过验证的 4 步流程可确保成功的投资成果",
+    howWeWorkSubtitle: "我们经过验证的 4 步流程可确保成功的活动成果",
     step1Title: "发现与愿景",
     step1Desc: "我们花时间倾听您的想法并了解您的目标，塑造每一个细节，以创建一个无缝、难忘且完全符合您愿景的活动。",
     step2Title: "规划与策略",
