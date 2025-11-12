@@ -1,9 +1,9 @@
 export const contactTranslations = {
   en: {
     contactTitle: "Contact Us",
-    contactSubtitle: "Let's start building your investment in Ethiopia",
+    contactSubtitle: "Let's start building your Events in Ethiopia",
     getInTouch: "Get In Touch",
-    getInTouchDesc: "Ready to explore investment opportunities in Ethiopia? Fill out the form below and we'll get back to you within 24 hours.",
+    getInTouchDesc: "Ready to explore events opportunities in Ethiopia? Fill out the form below and we'll get back to you within 24 hours.",
     fullName: "Full Name *",
     emailAddress: "Email Address *",
     phoneNumber: "Phone Number",
@@ -14,7 +14,7 @@ export const contactTranslations = {
     email: "Email",
     phone: "Phone",
     followUs: "Follow Us",
-    followUsDesc: "Connect with us on social media for the latest updates on investment opportunities and market insights.",
+    followUsDesc: "Connect with us on social media for the latest updates on events opportunities.",
     officeHours: "Office Hours",
     officeHoursDay1: "Monday - Saturday",
     officeHoursTime1: "8:00 AM - 5:00 PM",
@@ -29,7 +29,7 @@ export const contactTranslations = {
     contactTitle: "اتصل بنا",
     contactSubtitle: "لنبدأ في بناء استثمارك في إثيوبيا",
     getInTouch: "ابقى على تواصل",
-    getInTouchDesc: "هل أنت مستعد لاستكشاف فرص الاستثمار في إثيوبيا؟ املأ النموذج أدناه وسنعاود الاتصال بك في غضون 24 ساعة.",
+    getInTouchDesc: "هل أنت مستعد لاستكشاف فرص الأحداث في إثيوبيا؟ املأ النموذج أدناه وسنعاود الاتصال بك في غضون 24 ساعة.",
     fullName: "* الاسم الكامل",
     emailAddress: "* عنوان البريد الإلكتروني",
     phoneNumber: "رقم الهاتف",
@@ -40,7 +40,7 @@ export const contactTranslations = {
     email: "البريد الإلكتروني",
     phone: "الهاتف",
     followUs: "تابعنا",
-    followUsDesc: "تواصل معنا على وسائل التواصل الاجتماعي للحصول على آخر التحديثات حول فرص الاستثمار ورؤى السوق.",
+    followUsDesc: "تواصل معنا على وسائل التواصل الاجتماعي للحصول على آخر التحديثات حول فرص الأحداث. "
     officeHours: "ساعات العمل",
     officeHoursDay1: "الاثنين - السبت",
     officeHoursTime1: "8:00 صباحًا - 5:00 مساءً",
