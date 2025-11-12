@@ -1,7 +1,7 @@
 export const contactTranslations = {
   en: {
     contactTitle: "Contact Us",
-    contactSubtitle: "Let's start building your Events in Ethiopia",
+    contactSubtitle: "Let's start building your events in Ethiopia",
     getInTouch: "Get In Touch",
     getInTouchDesc: "Ready to explore events opportunities in Ethiopia? Fill out the form below and we'll get back to you within 24 hours.",
     fullName: "Full Name *",
